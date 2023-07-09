@@ -1,0 +1,39 @@
+/* ./app.component.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #e70f57;
+    box-shadow: 0 0 5px #e70f57;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e649af;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+  }
+  
+  button:hover {
+    background-color: #930f8e;
+  }
+  

@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-angular-app';
-  name = 'Rishita'
+
+  getUserValue(value: any)
+  {
+    console.log(value);
+  }
 }

@@ -1,1 +1,12 @@
-<h1>{{name}}</h1>
+<app-header></app-header>
+
+<!-- form -->
+<form #simpleform = "ngForm" (ngSubmit)="getUserValue(simpleform.value)">
+  <input type="text" name="username" placeholder="enter your name"> <br><br>
+  <input type="text" name="age" placeholder="enter your age"> <br><br>
+  <input type="text" name="email" placeholder="enter your email"> <br><br>
+  <button>Get Values </button>
+</form>
+
+
+<app-footer></app-footer>
